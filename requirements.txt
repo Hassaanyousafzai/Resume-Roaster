@@ -1,0 +1,5 @@
+PyPDF2 
+streamlit
+os
+requrests
+dotenv
