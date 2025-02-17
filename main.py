@@ -42,7 +42,6 @@ def roast_resume(text, position):
     {text}
     """
 
-    st.write({position})
     headers = {
         "Authorization": f"Bearer {st.secrets.get('TOGETHERAI_API_KEY', '')}",
         "Content-Type": "application/json"
@@ -63,11 +62,10 @@ def roast_resume(text, position):
         return "Error generating output. Please check API key and request format."
 
 st.title("Get roasted by yours truly, Gordon Ramsey! 🔥")
-st.write("Upload your resume and get roasted! (But constructively 😈)")
+st.write("Upload your resume and get roasted! (But constructively 😈) hehe")
 
 position = st.text_input("Enter the position you are applying for:")
 uploaded_file = st.file_uploader("Upload Resume (PDF only)", type=["pdf"])
-
 
 if uploaded_file is not None and position:
     if st.button("Roast My Resume"):
