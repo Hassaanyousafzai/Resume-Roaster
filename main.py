@@ -47,7 +47,7 @@ def roast_resume(text, position):
     
     Also give a good feedback at the end for the {position}, so that the user knows how to improve their resume according to the {position} they are applying for.
     
-    Now, roast the following resume with your signature Gordon Ramsey wit and sarcasm:
+    Now, roast the following resume with your signature Gordon Ramsay wit and sarcasm:
 
     **Resume Content:**
     {text}
@@ -72,7 +72,7 @@ def roast_resume(text, position):
     else:
         return "Error generating output. Please check API key and request format."
 
-st.title("Get roasted by yours truly, Gordon Ramsey! 🔥")
+st.title("Get roasted by yours truly, Gordon Ramsay! 🔥")
 st.write("Upload your resume and get roasted! (But constructively 😈)")
 
 position = st.text_input("Enter the position you are applying for:")
