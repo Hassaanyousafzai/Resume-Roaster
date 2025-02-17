@@ -31,6 +31,10 @@ def roast_resume(text, position):
     Don't hold back, but make sure the critique is constructive. 
     End each roast with a final ‘verdict’ on whether the resume is ‘Michelin-star-worthy’ or belongs in ‘the bin.’ 
 
+    
+    Also, don't write the title "Opening Line" but do write what you wanted to write in the opening line.
+    Now, roast the following resume with your signature Gordon Ramsey wit and sarcasm:
+
     **Resume Content:**
     {text}
     """
