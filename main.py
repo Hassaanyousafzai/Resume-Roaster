@@ -67,7 +67,7 @@ def roast_resume(text, position):
     """
 
     headers = {
-        "Authorization": st.secrets(TOGETHERAI_API_KEY),
+        "Authorization": f"Bearer {st.secrets.get('TOGETHERAI_API_KEY', '')}",
         "Content-Type": "application/json"
     }
     
