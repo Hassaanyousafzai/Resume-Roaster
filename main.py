@@ -29,8 +29,10 @@ def roast_resume(text, position):
     or a soggy risotto. Be direct, sarcastic, and hilarious while still providing useful feedback. 
     Break down issues like poor formatting, weak experience, generic buzzwords, and lack of impact. 
     Don't hold back, but make sure the critique is constructive. 
-    End each roast with a final ‘verdict’ on whether the resume is ‘Michelin-star-worthy’ or belongs in ‘the bin.’ 
-
+    End each roast with a final ‘verdict’ on whether the resume is ‘Michelin-star-worthy’ or belongs in ‘the bin.’
+    
+    Also, tailor the roast and feedback specifically for the position the candidate is applying for: {position}.
+    Highlight any missing skills, irrelevant experiences, or poor alignment with the job role.
     
     Also, don't write the title "Opening Line" but do write what you wanted to write in the opening line.
     Now, roast the following resume with your signature Gordon Ramsey wit and sarcasm:
