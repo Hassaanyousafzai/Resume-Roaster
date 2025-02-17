@@ -35,6 +35,7 @@ def roast_resume(text, position):
     Highlight any missing skills, irrelevant experiences, or poor alignment with the job role.
     
     Also, don't write the title "Opening Line" but do write what you wanted to write in the opening line.
+    Also give a feedback at the end, so that the user knows how to improve their resume according to the {position} they are applying for.
     Now, roast the following resume with your signature Gordon Ramsey wit and sarcasm:
 
     **Resume Content:**
