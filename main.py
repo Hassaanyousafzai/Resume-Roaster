@@ -62,7 +62,7 @@ def roast_resume(text, position):
         return "Error generating output. Please check API key and request format."
 
 st.title("Get roasted by yours truly, Gordon Ramsey! 🔥")
-st.write("Upload your resume and get roasted! (But constructively 😈) hehe")
+st.write("Upload your resume and get roasted! (But constructively 😈) hehe hehe")
 
 position = st.text_input("Enter the position you are applying for:")
 uploaded_file = st.file_uploader("Upload Resume (PDF only)", type=["pdf"])
