@@ -13,7 +13,7 @@ API_URL = "https://api.together.xyz/v1/chat/completions"
 # st.image("https://ew.com/thmb/UH5Pky8-bPW0xyINGGx9_IP5qqU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gordon-ramsay-hells-kitchen-02-2000-5ba7b54922864ca9b566bb5f4f0b9ace.jpg", width=600)
 
 st.markdown(
-    "<div style='text-align: center;'><img src='https://ew.com/thmb/UH5Pky8-bPW0xyINGGx9_IP5qqU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gordon-ramsay-hells-kitchen-02-2000-5ba7b54922864ca9b566bb5f4f0b9ace.jpg' width='400'></div>",
+    "<div style='text-align: center;'><img src='https://ew.com/thmb/UH5Pky8-bPW0xyINGGx9_IP5qqU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gordon-ramsay-hells-kitchen-02-2000-5ba7b54922864ca9b566bb5f4f0b9ace.jpg' width='800'></div>",
     unsafe_allow_html=True
 )
 
