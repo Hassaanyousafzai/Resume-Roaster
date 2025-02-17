@@ -35,7 +35,9 @@ def roast_resume(text, position):
     Highlight any missing skills, irrelevant experiences, or poor alignment with the job role.
     
     Also, don't write the title "Opening Line" but do write what you wanted to write in the opening line.
-    Also give a feedback at the end, so that the user knows how to improve their resume according to the {position} they are applying for.
+    
+    Also give a feedback at the end for the {position}, so that the user knows how to improve their resume according to the {position} they are applying for.
+    
     Now, roast the following resume with your signature Gordon Ramsey wit and sarcasm:
 
     **Resume Content:**
@@ -62,7 +64,7 @@ def roast_resume(text, position):
         return "Error generating output. Please check API key and request format."
 
 st.title("Get roasted by yours truly, Gordon Ramsey! 🔥")
-st.write("Upload your resume and get roasted! (But constructively 😈) hehe hehe")
+st.write("Upload your resume and get roasted! (But constructively 😈)")
 
 position = st.text_input("Enter the position you are applying for:")
 uploaded_file = st.file_uploader("Upload Resume (PDF only)", type=["pdf"])
