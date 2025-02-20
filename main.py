@@ -10,7 +10,7 @@ TOGETHERAI_API_KEY = os.getenv("TOGETHERAI_API_KEY")
 API_URL = "https://api.together.xyz/v1/chat/completions"
 
 st.markdown(
-    "<div style='text-align: center;'><img src='https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_avif,q_auto:eco,dpr_2/newscms/2019_16/1426313/gordon-ramsay-today-main-190416.jpg' width='700'></div>",
+    "<div style='text-align: center;'><img src='https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_avif,q_auto:eco,dpr_2/newscms/2019_16/1426313/gordon-ramsay-today-main-190416.jpg' width='500'></div>",
     unsafe_allow_html=True
 )
 
